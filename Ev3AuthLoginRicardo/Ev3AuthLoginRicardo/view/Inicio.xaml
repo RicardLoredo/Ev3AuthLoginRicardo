@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ev3AuthLoginRicardo.view.Inicio"
+             BackgroundImageSource="drawable/fondo_inicio.png">
+    <StackLayout Padding="20">
+        <Label Text="Bienvenido, selecciona tu artista favorito"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"
+               TextColor="White"
+               HorizontalOptions="Center" />
+        
+
+        <ScrollView>
+            <StackLayout Spacing="-35">
+                <Frame CornerRadius="10" BackgroundColor="Transparent">
+                    <StackLayout>
+                        <Image Source="https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2023/09/18/16950390968958.jpg" WidthRequest="200" HeightRequest="200" Aspect="AspectFill" />
+                        <Label Text="Olivia Rodrigo" FontAttributes="Bold" HorizontalOptions="Center" TextColor="White" BackgroundColor="#90800080"/>
+
+                    </StackLayout>
+                </Frame>
+
+
+                <Frame CornerRadius="10" BackgroundColor="Transparent">
+                    <StackLayout>
+                        <Image Source="https://i.pinimg.com/736x/11/38/c8/1138c8f2abf9498b316015eb9b1fee73.jpg" WidthRequest="200" HeightRequest="200" Aspect="AspectFill" />
+                        <Label Text="Soyeon" FontAttributes="Bold" HorizontalOptions="Center" TextColor="White" BackgroundColor="#90800080"/>
+
+                    </StackLayout>
+                </Frame>
+
+                <Frame CornerRadius="10"  BackgroundColor="Transparent">
+                    <StackLayout>
+                        <Image Source="https://images.lifestyleasia.com/wp-content/uploads/sites/5/2021/09/10123812/Lalisa-FI.png?tr=w-1200,h-900" WidthRequest="200" HeightRequest="200" Aspect="AspectFill" />
+                        <Label Text="LISA" FontAttributes="Bold" HorizontalOptions="Center" TextColor="White" BackgroundColor="#90800080"/>
+ 
+                    </StackLayout>
+                </Frame>
+
+
+
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>
